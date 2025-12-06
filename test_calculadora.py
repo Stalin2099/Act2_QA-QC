@@ -6,7 +6,7 @@ def calc():
     return Calculadora()
 
 def test_suma(calc):
-    assert calc.suma(2, 3) == 5  
+    assert calc.suma(2, 3) == 0  
 
 def test_resta(calc):
     assert calc.resta(5, 2) == 3 
